@@ -156,7 +156,8 @@ input:checked + .slider:before {
 }
 
 .button {
-  background-color: hsl(232, 69%, 69%);
+  background: -webkit-linear-gradient(right,hsl(237, 63%, 64%), hsl(236, 72%, 79%));
+  background: -moz-linear-gradient(bottom,hsl(237, 63%, 64%), hsl(236, 72%, 79%));
   border-radius: 3px;
   color: rgb(250, 249, 249);
   padding: 10px 55px;
@@ -180,7 +181,7 @@ input:checked + .slider:before {
          
 .button:hover{
   border: 1px solid hsl(232, 69%, 69%);
-  background-color: transparent;
+  background: transparent;
   color:rgb(17, 16, 16);
 }
           
@@ -258,21 +259,21 @@ input:checked + .slider:before {
 
     let dollar1 = document.getElementById("dollar1");
     if (dollar1.innerHTML === "$ 19.99"){
-    dollar1.innerHTML = "$ 199.9";
+    dollar1.innerHTML = "$ 199.99";
     }else{
       dollar1.innerHTML = "$ 19.99"
     }
 
     let dollar2 = document.getElementById("dollar2");
     if (dollar2.innerHTML === "$ 24.99"){
-    dollar2.innerHTML = "$ 249.9";
+    dollar2.innerHTML = "$ 249.99";
     }else{
       dollar2.innerHTML = "$ 24.99"
     } 
 
     let dollar3 = document.getElementById("dollar3");
     if (dollar3.innerHTML === "$ 39.99"){
-    dollar3.innerHTML = "$ 399.9";
+    dollar3.innerHTML = "$ 399.99";
     }else{
       dollar3.innerHTML = "$ 39.99"
     }
