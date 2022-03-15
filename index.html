@@ -1,34 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-    <title>Pricing component</title>
-  </head>
 
-  <body>
-    <div class="container">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <title>Pricing component</title>
+</head>
+
+<body>
+  <div class="container">
     <h2 style="text-align: center; padding: 25px;">Our Pricing</h2>
     <div style="text-align:center; margin: 0px 0 40px 0px">Monthly <label class="switch">
-      <input type="checkbox" onclick="cb()">
-      <span class="slider round"></span>
-    </label> Annually</div>
+        <input type="checkbox" onclick="cb()">
+        <span class="slider round"></span>
+      </label> Annually</div>
 
 
     <div class="columns">
       <div class="basic">
-        <div class="internal" >
+        <div class="internal">
           <ul class="price">
             <li class="header">Basic</li>
             <li class="dollars" id="dollar1">$ 19.99</li>
@@ -39,11 +35,11 @@
           </ul>
         </div>
       </div>
-      
+
       <div class="professional">
-        <div class="internal" >
+        <div class="internal">
           <ul class="price">
-            <li class="header"; style="color: white;">Professional</li>
+            <li class="header" ; style="color: white;">Professional</li>
             <li class="dollars" id="dollar2">$ 24.99</li>
             <li>1TB Storage</li>
             <li>5 Users Allowed</li>
@@ -52,9 +48,9 @@
           </ul>
         </div>
       </div>
-      
+
       <div class="master">
-        <div class="internal" >
+        <div class="internal">
           <ul class="price">
             <li class="header">Master</li>
             <li class="dollars" id="dollar3">$ 39.99</li>
@@ -67,32 +63,32 @@
       </div>
     </div>
   </div>
-  
+
   <script>
-    
-    function cb(){
+    function cb() {
 
-    let dollar1 = document.getElementById("dollar1");
-    if (dollar1.innerHTML === "$ 19.99"){
-    dollar1.innerHTML = "$ 199.99";
-    }else{
-      dollar1.innerHTML = "$ 19.99"
+      let dollar1 = document.getElementById("dollar1");
+      if (dollar1.innerHTML === "$ 19.99") {
+        dollar1.innerHTML = "$ 199.99";
+      } else {
+        dollar1.innerHTML = "$ 19.99"
+      }
+
+      let dollar2 = document.getElementById("dollar2");
+      if (dollar2.innerHTML === "$ 24.99") {
+        dollar2.innerHTML = "$ 249.99";
+      } else {
+        dollar2.innerHTML = "$ 24.99"
+      }
+
+      let dollar3 = document.getElementById("dollar3");
+      if (dollar3.innerHTML === "$ 39.99") {
+        dollar3.innerHTML = "$ 399.99";
+      } else {
+        dollar3.innerHTML = "$ 39.99"
+      }
     }
-
-    let dollar2 = document.getElementById("dollar2");
-    if (dollar2.innerHTML === "$ 24.99"){
-    dollar2.innerHTML = "$ 249.99";
-    }else{
-      dollar2.innerHTML = "$ 24.99"
-    } 
-
-    let dollar3 = document.getElementById("dollar3");
-    if (dollar3.innerHTML === "$ 39.99"){
-    dollar3.innerHTML = "$ 399.99";
-    }else{
-      dollar3.innerHTML = "$ 39.99"
-    }
-}
   </script>
-  </body>
-  </html>
+</body>
+
+</html>
