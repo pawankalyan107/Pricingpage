@@ -3,6 +3,7 @@
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    
   }
   
   .container {
@@ -13,13 +14,13 @@
     background-position: right top, left bottom;
     background-repeat: no-repeat;
     box-shadow: 0px 10px 12px 0 rgba(0,0,0,0.2);
-
+    padding:0px;
   }
   
   .columns{
     display:flex;
     justify-content: space-around;
-    
+    padding:0%
   }
   
   .switch {
@@ -28,6 +29,7 @@
     display: inline-block;
     width: 46px;
     height: 25px;
+    padding: 0px;
   }
         
   .switch input { 
@@ -92,7 +94,8 @@
     margin: 0 0 0 -38%;
     flex-shrink: 0;
     box-shadow: 0 10px 12px 0 rgba(0,0,0,0.2);
-    width:19%
+    width:19%;
+    padding:auto;
   }
   
   .professional {
@@ -107,7 +110,6 @@
     box-shadow: 0 10px 12px 0 rgba(0,0,0,0.2);
     width:19%;
     margin:0 0 0 0px;
-  
   }
           
   .master {
@@ -126,7 +128,6 @@
               
     list-style-type: none;
     border-bottom: 1px solid rgb(196, 194, 194);
-    
     padding: 10px;
     font-size: 10px;
     text-align: center;
@@ -153,7 +154,6 @@
     text-decoration: none;
     font-size: 10px;
     margin: 0 0 0 10px;
-    
   }
      
   .price .dollars {
