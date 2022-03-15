@@ -84,7 +84,7 @@
     border-radius: 50%;
   }
   
-  .column1 {
+  .basic {
     position: relative;
     min-width: 15vw;
     background-color: white;
@@ -95,7 +95,7 @@
     width:19%
   }
   
-  .column2 {
+  .professional {
     position: absolute;
     min-width: 15vw;
     padding: 0px 0px 15px 0px;
@@ -110,7 +110,7 @@
   
   }
           
-  .column3 {
+  .master {
     position: absolute;
     min-width: 15vw;
     background-color: white;
@@ -190,7 +190,7 @@
      align-items: center;
      
     }
-    .column1, .column2, .column3 {
+    .basic, .professional, .master {
       position: relative;
       width: 55%;
       margin: 0 0 15px 0;
