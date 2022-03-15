@@ -13,19 +13,21 @@
     background-position: right top, left bottom;
     background-repeat: no-repeat;
     box-shadow: 0px 10px 12px 0 rgba(0,0,0,0.2);
+
   }
   
   .columns{
     display:flex;
     justify-content: space-around;
+    
   }
   
   .switch {
   
     position: relative;
     display: inline-block;
-    width: 60px;
-    height: 34px;
+    width: 46px;
+    height: 25px;
   }
         
   .switch input { 
@@ -49,10 +51,10 @@
   .slider:before {
     position: absolute;
     content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
+    height: 15px;
+    width: 14px;
+    left: 3px;
+    bottom: 5px;
     background-color: white;
     -webkit-transition: .4s;
     transition: .4s;
@@ -87,9 +89,10 @@
     min-width: 15vw;
     background-color: white;
     border-radius: 5px;
-    margin: 0 0 0 -415px;
+    margin: 0 0 0 -38%;
     flex-shrink: 0;
     box-shadow: 0 10px 12px 0 rgba(0,0,0,0.2);
+    width:19%
   }
   
   .column2 {
@@ -102,6 +105,9 @@
     border-radius: 5px;
     flex-shrink: 0;
     box-shadow: 0 10px 12px 0 rgba(0,0,0,0.2);
+    width:19%;
+    margin:0 0 0 0px;
+  
   }
           
   .column3 {
@@ -111,13 +117,16 @@
     border-radius: 5px;
     flex-shrink: 0;
     box-shadow: 0 10px 12px 0 rgba(0,0,0,0.2);
-    margin: 0 0 0 415px;
+    margin: 0 0 0 38%;
+    width:19%
+
   }
         
   .price li {
               
     list-style-type: none;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid rgb(5, 5, 5);
+    
     padding: 10px;
     font-size: 10px;
     text-align: center;
@@ -144,6 +153,7 @@
     text-decoration: none;
     font-size: 10px;
     margin: 0 0 0 10px;
+    
   }
      
   .price .dollars {
@@ -167,6 +177,10 @@
   .button1:hover{
     border: 1px solid white;
     background-color: transparent;
+  }
+  .internal{
+    width:80%;
+    margin:auto;
   }
   
   @media only screen and (max-width: 600px) {
